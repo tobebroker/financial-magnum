@@ -1,6 +1,8 @@
 (function($) {
-	
 	"use strict";
+
+	let currentYear = new Date().getFullYear();
+	document.getElementById("current-year").innerHTML = currentYear;
 	
 	//Hide Loading Box (Preloader)
 	function handlePreloader() {
